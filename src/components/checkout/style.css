@@ -1,0 +1,27 @@
+.Bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: white;
+  width: 60%;
+  padding: 20px;
+}
+td{
+  /* border: 1px solid gainsboro; */
+  padding: 0;
+}
+.a{
+  background-color: rgb(188, 255, 120);
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+.a:hover{
+  background-color:chartreuse;
+  transition: 500ms;
+}

@@ -1,0 +1,90 @@
+.cart {
+  border-top: 4px solid black;
+  display: flex;
+}
+
+#cart-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.cart-item {
+  height: 30em;
+  width: 20em;
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+  padding: 1em;
+  background-color: white;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  min-height: 30em;
+}
+
+#total-price {
+  font-family: 'Lato', sans-serif;
+}
+
+.total-price {
+  width: 30vw;
+  background-color: #FFF;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 3em;
+}
+
+.items-title {
+  text-align: center;
+}
+
+img {
+  height: 20em;
+}
+
+.items{
+  padding-bottom: 30px;
+  /* background-color: black; */
+}
+
+.cartItem{
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(194, 194, 194);
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  background-color: #FFF;
+  justify-content: space-between;
+
+}
+.cartItem * {
+  /* border: solid 1px; */
+}
+.cartItem img{
+  height: 100px;
+}
+.cartItem .yo{
+  padding: 0px 10px;
+}
+
+.select{
+  border: 2px solid black;
+}
+
+.nav-link-head{
+  background-color: rgb(130, 172, 228);
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+  margin: 1vh;
+  /* margin: auto; */
+}
